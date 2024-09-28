@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD de Cursos</title>
+    <link rel="stylesheet" href="oat.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cadastro de Cursos</h1>
+        <div>
+            <label for="nome">Nome do Curso:</label>
+            <input type="text" id="nome" placeholder="Digite o nome do curso"><br>
+
+            <label for="duracao">Duração (Semestres):</label>
+            <input type="text" id="duracao" placeholder="Digite a duração do curso"><br>
+
+            <button id="adicionar" onclick="adicionarCurso()">Adicionar Curso</button>
+        </div>
+    </div>
+    
+    <div class="container">
+        <h2>Lista de Cursos</h2>
+        <ul id="lista-cursos"></ul>
+    </div>
+
+    <script src="oat.js"></script>
+</body>
+</html>
